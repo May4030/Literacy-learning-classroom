@@ -1,200 +1,289 @@
-:raíz {
---primario: #6b4fc8;
---secundario: #f5b642;
---acento: #4fb7a8;
---luz: #f8f7fc;
---oscuro: #2f2f3a;
---blanco: #ffffff;
-}
+<!DOCTYPE html>
+<html lang="en">
 
-* {
-box-size: border-box;
-}
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-cuerpo {
-margen: 0;
-familia de fuentes: Arial, Helvetica, sans-serif;
-color: var(--dark);
-fondo: var(--light);
-interlineado: 1,6;
-}
+  <title>Literacy Learning Classroom</title>
 
-encabezado {
-fondo: gradiente-lineal(135deg, var(--primary), #8b73df);
-color: blanco;
-relleno: 48px 20px;
-alineación de texto: centro;
-}
+  <!-- Connects the website to the design file -->
+  <link rel="stylesheet" href="./style.css?v=2">
+</head>
 
-encabezado h1 {
-margen: 0;
-tamaño de fuente: 2,5rem;
-}
+<body>
 
-encabezado p {
-ancho máximo: 700px;
-margen: 12px auto 0;
-tamaño de fuente: 1,1rem;
-}
+  <!-- HEADER -->
+  <header>
+    <h1>📚 Literacy Learning Classroom</h1>
 
-navegación {
-fondo: blanco;
-relleno: 14px 20px;
-pantalla: flexible;
-flex-wrap: envoltura;
-justificar-contenido: centro;
-espacio: 20px;
-posición: pegajosa;
-superior: 0;
-box-shadow: 0 2px 10px rgba(0, 0, 0, 0.08);
-índice z: 10;
-}
+    <p>
+      A place where families can stay connected, celebrate student growth,
+      and support reading and writing at home.
+    </p>
+  </header>
 
-navegación a {
-decoración de texto: ninguna;
-color: var(--primary);
-grosor de fuente: negrita;
-}
 
-principal {
-ancho máximo: 1100px;
-margen: automático;
-relleno: 35px 20px;
-}
+  <!-- NAVIGATION -->
+  <nav>
+    <a href="#home">Home</a>
+    <a href="#learning">Literacy Learning</a>
+    <a href="#updates">Class Updates</a>
+    <a href="#gallery">Classroom Moments</a>
+    <a href="#resources">Family Resources</a>
+    <a href="#contact">Stay Connected</a>
+  </nav>
 
-sección {
-margen inferior: 50px;
-}
 
-h2 {
-color: var(--primary);
-margen inferior: 12px;
-}
+  <main>
 
-.bienvenido {
-fondo: blanco;
-radio de borde: 18px;
-relleno: 28px;
-box-shadow: 0 4px 16px rgba(0, 0, 0, 0.08);
-}
+    <!-- HOME -->
+    <section id="home" class="welcome">
 
-.tarjetas {
-mostrar: cuadrícula;
-grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-espacio: 20px;
-margen superior: 22px;
-}
+      <h2>Welcome Families!</h2>
 
-.tarjeta {
-fondo: blanco;
-radio de borde: 16px;
-relleno: 22px;
-box-shadow: 0 4px 14px rgba(0, 0, 0, 0.07);
-borde superior: 6px sólido var(--accent);
-}
+      <p>
+        Welcome to our Literacy Learning Classroom!
+        This website is designed to help families stay informed
+        about what students are learning in reading and writing.
+      </p>
 
-.card:nth-child(2) {
-color-superior-del-borde: var(--secundario);
-}
+      <p>
+        Here you will find classroom updates, literacy activities,
+        helpful family resources, and examples of the exciting work
+        students are completing in the classroom.
+      </p>
 
-.card:nth-child(3) {
-color-superior del borde: var(--primario);
-}
+      <p>
+        Our goal is to build confident readers and writers through
+        meaningful practice, engaging stories, phonics, vocabulary,
+        reading comprehension, spelling, and writing activities.
+      </p>
 
-.card:nth-child(4) {
-color del borde superior: #ef7e75;
-}
+    </section>
 
-.actualizaciones {
-fondo: #fff7e7;
-borde-izquierdo: 6px sólido var(--secundario);
-relleno: 25px;
-radio de borde: 12px;
-}
 
-.galería {
-mostrar: cuadrícula;
-grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-espacio: 16px;
-}
+    <!-- LITERACY LEARNING -->
+    <section id="learning">
 
-.foto {
-fondo: blanco;
-radio de borde: 14px;
-desbordamiento: oculto;
-box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
-}
+      <h2>What We Are Learning</h2>
 
-.foto img {
-ancho: 100%;
-altura: 280px;
-ajuste del objeto: cubrir;
-mostrar: bloque;
-}
+      <div class="cards">
 
-.lista-de-recursos {
-mostrar: cuadrícula;
-espacio: 12px;
-}
+        <div class="card">
+          <h3>📖 Reading Comprehension</h3>
 
-.recurso {
-fondo: blanco;
-relleno: 16px 18px;
-radio de borde: 12px;
-box-shadow: 0 3px 10px rgba(0, 0, 0, 0.06);
-}
+          <p>
+            Students practice identifying the main idea, key details,
+            characters, setting, sequence of events, making predictions,
+            and answering questions about a text.
+          </p>
+        </div>
 
-.contacto {
-fondo: var(--acento);
-color: blanco;
-relleno: 30px;
-radio de borde: 18px;
-alineación de texto: centro;
-}
 
-.contact h2 {
-color: blanco;
-}
+        <div class="card">
+          <h3>🔤 Phonics & Word Work</h3>
 
-.botón {
-mostrar: bloque en línea;
-margen superior: 12px;
-fondo: var(--primary);
-color: blanco;
-decoración de texto: ninguna;
-relleno: 11px 18px;
-radio de borde: 10px;
-grosor de fuente: negrita;
-}
+          <p>
+            Students develop decoding skills by practicing letter sounds,
+            blends, digraphs, vowel patterns, word families,
+            and high-frequency words.
+          </p>
+        </div>
 
-.button:hover {
-opacidad: 0,9;
-}
 
-pie de página {
-fondo: #2f2f3a;
-color: blanco;
-alineación de texto: centro;
-relleno: 22px;
-margen superior: 30px;
-}
+        <div class="card">
+          <h3>✏️ Writing Practice</h3>
 
-@media (max-width: 700px) {
-encabezado h1 {
-tamaño de fuente: 2rem;
-}
+          <p>
+            Students practice writing complete sentences,
+            using capitalization and punctuation,
+            spelling words correctly, and organizing their ideas.
+          </p>
+        </div>
 
-navegación {
-espacio: 12px;
-}
 
-navegación a {
-mostrar: bloque;
-ancho: 100%;
-alineación de texto: centro;
-}
+        <div class="card">
+          <h3>💬 Vocabulary</h3>
 
-.foto img {
-altura: automática;
-}
-}
+          <p>
+            Students learn new vocabulary through stories,
+            classroom discussions, pictures, reading passages,
+            and meaningful literacy activities.
+          </p>
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- CLASS UPDATES -->
+    <section id="updates">
+
+      <h2>Class Updates</h2>
+
+      <div class="updates">
+
+        <h3>What’s New This Week?</h3>
+
+        <p>
+          We add new classroom activities and literacy updates regularly.
+          Students may be working on reading comprehension passages,
+          phonics activities, spelling words, vocabulary,
+          or written responses connected to a story.
+        </p>
+
+        <p>
+          Families can check this section for classroom reminders,
+          upcoming literacy activities, reading goals,
+          assignments, and important classroom information.
+        </p>
+
+      </div>
+
+    </section>
+
+
+    <!-- CLASSROOM MOMENTS -->
+    <section id="gallery">
+
+      <h2>Classroom Moments</h2>
+
+      <p>
+        Here are some of our favorite classroom moments.
+        Students participate in hands-on literacy activities
+        that strengthen phonics, spelling, reading comprehension,
+        vocabulary, and writing skills.
+      </p>
+
+
+      <div class="gallery">
+
+        <div class="photo">
+          <img
+            src="images/phonics.jpg"
+            alt="Student participating in a phonics activity">
+        </div>
+
+
+        <div class="photo">
+          <img
+            src="images/reading.jpg"
+            alt="Student completing a reading activity">
+        </div>
+
+
+        <div class="photo">
+          <img
+            src="images/spelling.jpg"
+            alt="Student practicing spelling words">
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- FAMILY RESOURCES -->
+    <section id="resources">
+
+      <h2>Family Literacy Resources</h2>
+
+      <p>
+        Families play an important role in helping children become
+        successful readers and writers. Here are simple ways to
+        support literacy learning at home.
+      </p>
+
+
+      <div class="resource-list">
+
+        <div class="resource">
+          <strong>📚 Read Together:</strong>
+          Read with your child for 15–20 minutes each day.
+        </div>
+
+
+        <div class="resource">
+          <strong>🔎 Ask Questions:</strong>
+          Ask your child what happened first, what happened next,
+          why a character made a decision, and what may happen next.
+        </div>
+
+
+        <div class="resource">
+          <strong>📝 Practice Writing:</strong>
+          Encourage your child to write simple sentences,
+          journal entries, or short responses about a story.
+        </div>
+
+
+        <div class="resource">
+          <strong>🔤 Practice Words:</strong>
+          Review sight words, spelling words, letter sounds,
+          blends, phonics patterns, and classroom vocabulary.
+        </div>
+
+
+        <div class="resource">
+          <strong>🎲 Make Learning Fun:</strong>
+          Use word games, rhyming activities, flashcards,
+          magnetic letters, and family reading challenges.
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- STAY CONNECTED -->
+    <section id="contact">
+
+      <div class="contact">
+
+        <h2>Stay Connected</h2>
+
+        <p>
+          Family communication is an important part of student success.
+          Please reach out if you have questions about classroom activities,
+          reading practice, assignments, or ways to support your child at home.
+        </p>
+
+        <p>
+          <strong>Teacher: May Caro</strong>
+        </p>
+
+        <p>
+          <strong>Email: may.caro001@mymdc.net</strong>
+        </p>
+
+        <a
+          class="button"
+          href="mailto:may.caro001@mymdc.net">
+          Email the Teacher
+        </a>
+
+      </div>
+
+    </section>
+
+  </main>
+
+
+  <!-- FOOTER -->
+  <footer>
+
+    <p>
+      © 2026 Literacy Learning Classroom |
+      Growing Readers, Writers, and Thinkers
+    </p>
+
+  </footer>
+
+
+  <script src="./script.js"></script>
+
+</body>
+
+</html>
