@@ -1,1 +1,200 @@
+:raíz {
+--primario: #6b4fc8;
+--secundario: #f5b642;
+--acento: #4fb7a8;
+--luz: #f8f7fc;
+--oscuro: #2f2f3a;
+--blanco: #ffffff;
+}
 
+* {
+box-size: border-box;
+}
+
+cuerpo {
+margen: 0;
+familia de fuentes: Arial, Helvetica, sans-serif;
+color: var(--dark);
+fondo: var(--light);
+interlineado: 1,6;
+}
+
+encabezado {
+fondo: gradiente-lineal(135deg, var(--primary), #8b73df);
+color: blanco;
+relleno: 48px 20px;
+alineación de texto: centro;
+}
+
+encabezado h1 {
+margen: 0;
+tamaño de fuente: 2,5rem;
+}
+
+encabezado p {
+ancho máximo: 700px;
+margen: 12px auto 0;
+tamaño de fuente: 1,1rem;
+}
+
+navegación {
+fondo: blanco;
+relleno: 14px 20px;
+pantalla: flexible;
+flex-wrap: envoltura;
+justificar-contenido: centro;
+espacio: 20px;
+posición: pegajosa;
+superior: 0;
+box-shadow: 0 2px 10px rgba(0, 0, 0, 0.08);
+índice z: 10;
+}
+
+navegación a {
+decoración de texto: ninguna;
+color: var(--primary);
+grosor de fuente: negrita;
+}
+
+principal {
+ancho máximo: 1100px;
+margen: automático;
+relleno: 35px 20px;
+}
+
+sección {
+margen inferior: 50px;
+}
+
+h2 {
+color: var(--primary);
+margen inferior: 12px;
+}
+
+.bienvenido {
+fondo: blanco;
+radio de borde: 18px;
+relleno: 28px;
+box-shadow: 0 4px 16px rgba(0, 0, 0, 0.08);
+}
+
+.tarjetas {
+mostrar: cuadrícula;
+grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+espacio: 20px;
+margen superior: 22px;
+}
+
+.tarjeta {
+fondo: blanco;
+radio de borde: 16px;
+relleno: 22px;
+box-shadow: 0 4px 14px rgba(0, 0, 0, 0.07);
+borde superior: 6px sólido var(--accent);
+}
+
+.card:nth-child(2) {
+color-superior-del-borde: var(--secundario);
+}
+
+.card:nth-child(3) {
+color-superior del borde: var(--primario);
+}
+
+.card:nth-child(4) {
+color del borde superior: #ef7e75;
+}
+
+.actualizaciones {
+fondo: #fff7e7;
+borde-izquierdo: 6px sólido var(--secundario);
+relleno: 25px;
+radio de borde: 12px;
+}
+
+.galería {
+mostrar: cuadrícula;
+grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+espacio: 16px;
+}
+
+.foto {
+fondo: blanco;
+radio de borde: 14px;
+desbordamiento: oculto;
+box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+.foto img {
+ancho: 100%;
+altura: 280px;
+ajuste del objeto: cubrir;
+mostrar: bloque;
+}
+
+.lista-de-recursos {
+mostrar: cuadrícula;
+espacio: 12px;
+}
+
+.recurso {
+fondo: blanco;
+relleno: 16px 18px;
+radio de borde: 12px;
+box-shadow: 0 3px 10px rgba(0, 0, 0, 0.06);
+}
+
+.contacto {
+fondo: var(--acento);
+color: blanco;
+relleno: 30px;
+radio de borde: 18px;
+alineación de texto: centro;
+}
+
+.contact h2 {
+color: blanco;
+}
+
+.botón {
+mostrar: bloque en línea;
+margen superior: 12px;
+fondo: var(--primary);
+color: blanco;
+decoración de texto: ninguna;
+relleno: 11px 18px;
+radio de borde: 10px;
+grosor de fuente: negrita;
+}
+
+.button:hover {
+opacidad: 0,9;
+}
+
+pie de página {
+fondo: #2f2f3a;
+color: blanco;
+alineación de texto: centro;
+relleno: 22px;
+margen superior: 30px;
+}
+
+@media (max-width: 700px) {
+encabezado h1 {
+tamaño de fuente: 2rem;
+}
+
+navegación {
+espacio: 12px;
+}
+
+navegación a {
+mostrar: bloque;
+ancho: 100%;
+alineación de texto: centro;
+}
+
+.foto img {
+altura: automática;
+}
+}
