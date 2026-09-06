@@ -1,289 +1,332 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-  <title>Literacy Learning Classroom</title>
-
-  <!-- Connects the website to the design file -->
-  <link rel="stylesheet" href="./style.css?v=2">
+  <meta name="description" content="Ms. Caro's third-grade literacy classroom: family guides, Florida standards, reading resources, and ways to practice at home.">
+  <meta name="theme-color" content="#073b4c">
+  <title>Ms. Caro's Literacy Learning Classroom</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Fraunces:opsz,wght@9..144,600;9..144,700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./style.css?v=3">
 </head>
 
 <body>
+  <a class="skip-link" href="#main-content">Skip to content</a>
 
-  <!-- HEADER -->
-  <header>
-    <h1>📚 Literacy Learning Classroom</h1>
+  <div class="top-note">
+    <span aria-hidden="true">☀️</span>
+    Growing readers, thoughtful writers, and confident learners
+    <span aria-hidden="true">☀️</span>
+  </div>
 
-    <p>
-      A place where families can stay connected, celebrate student growth,
-      and support reading and writing at home.
-    </p>
+  <header class="site-header">
+    <a class="brand" href="#home" aria-label="Ms. Caro's classroom home">
+      <span class="brand-mark" aria-hidden="true">MC</span>
+      <span>
+        <strong>Ms. Caro's Classroom</strong>
+        <small>Third Grade Literacy</small>
+      </span>
+    </a>
+
+    <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="site-nav">
+      <span class="menu-lines" aria-hidden="true"></span>
+      <span class="menu-label">Menu</span>
+    </button>
+
+    <nav id="site-nav" class="site-nav" aria-label="Main navigation">
+      <a href="#home">Home</a>
+      <a href="#teacher">Meet the Teacher</a>
+      <a href="#curriculum">Curriculum</a>
+      <a href="#goals">Literacy Goals</a>
+      <a href="#home-learning">Learning at Home</a>
+      <a href="#books">Books</a>
+      <a href="#word-wall">Word Wall</a>
+      <a href="#community">Community</a>
+      <a href="#parents">Parent Resources</a>
+      <a href="#references">References</a>
+    </nav>
   </header>
 
+  <main id="main-content">
+    <section id="home" class="hero section-shell">
+      <div class="hero-copy">
+        <p class="eyebrow">Welcome, readers and families!</p>
+        <h1>Every page opens a <span>new possibility.</span></h1>
+        <p class="hero-lead">
+          Welcome to Ms. Caro's Literacy Learning Classroom—a cheerful place where families can discover what we are learning, find trusted reading resources, and help children grow at home.
+        </p>
+        <div class="hero-actions">
+          <a class="button button-primary" href="#curriculum">Explore our learning</a>
+          <a class="button button-secondary" href="#parents">Family toolbox</a>
+        </div>
+        <ul class="hero-values" aria-label="Classroom values">
+          <li><span aria-hidden="true">♥</span> Kindness</li>
+          <li><span aria-hidden="true">✦</span> Curiosity</li>
+          <li><span aria-hidden="true">★</span> Confidence</li>
+        </ul>
+      </div>
 
-  <!-- NAVIGATION -->
-  <nav>
-    <a href="#home">Home</a>
-    <a href="#learning">Literacy Learning</a>
-    <a href="#updates">Class Updates</a>
-    <a href="#gallery">Classroom Moments</a>
-    <a href="#resources">Family Resources</a>
-    <a href="#contact">Stay Connected</a>
-  </nav>
+      <div class="hero-visual" aria-label="A colorful reading welcome">
+        <div class="hero-letters" aria-hidden="true">
+          <span class="hero-letter">A</span>
+          <span class="hero-letter">B</span>
+          <span class="hero-letter">C</span>
+        </div>
+        <div class="hero-note note-one">Read</div>
+        <div class="hero-note note-two">Think</div>
+        <div class="hero-note note-three">Shine</div>
+      </div>
 
-
-  <main>
-
-    <!-- HOME -->
-    <section id="home" class="welcome">
-
-      <h2>Welcome Families!</h2>
-
-      <p>
-        Welcome to our Literacy Learning Classroom!
-        This website is designed to help families stay informed
-        about what students are learning in reading and writing.
-      </p>
-
-      <p>
-        Here you will find classroom updates, literacy activities,
-        helpful family resources, and examples of the exciting work
-        students are completing in the classroom.
-      </p>
-
-      <p>
-        Our goal is to build confident readers and writers through
-        meaningful practice, engaging stories, phonics, vocabulary,
-        reading comprehension, spelling, and writing activities.
-      </p>
-
+      <div class="hero-wave" aria-hidden="true"></div>
     </section>
 
+    <section class="welcome-band" aria-label="Classroom promise">
+      <p>Read with courage</p><span>•</span><p>Write with purpose</p><span>•</span><p>Grow every day</p>
+    </section>
 
-    <!-- LITERACY LEARNING -->
-    <section id="learning">
+    <section id="teacher" class="content-section teacher-section">
+      <div class="section-heading">
+        <p class="eyebrow">A caring classroom partnership</p>
+        <h2>Meet Ms. Caro</h2>
+        <p>Get to know the teacher who will be cheering readers on throughout the year.</p>
+      </div>
 
-      <h2>What We Are Learning</h2>
+      <div class="teacher-layout">
+        <div class="portrait-frame">
+          <img class="teacher-photo" src="images/teacher-may-caro-classroom.webp" alt="Ms. May Caro smiling in a classroom" width="1000" height="1250">
+          <span class="portrait-sticker sticker-one" aria-hidden="true">A+</span>
+          <span class="portrait-sticker sticker-two" aria-hidden="true">📚</span>
+        </div>
 
-      <div class="cards">
-
-        <div class="card">
-          <h3>📖 Reading Comprehension</h3>
-
+        <div class="teacher-copy">
+          <p class="teacher-intro">Hello, families!</p>
           <p>
-            Students practice identifying the main idea, key details,
-            characters, setting, sequence of events, making predictions,
-            and answering questions about a text.
+            My name is <strong>Ms. May Caro</strong>. I hold an Associate of Arts degree and a bachelor's degree in Early Childhood Education, with a Kindergarten–Grade 3 focus.
           </p>
-        </div>
-
-
-        <div class="card">
-          <h3>🔤 Phonics & Word Work</h3>
-
           <p>
-            Students develop decoding skills by practicing letter sounds,
-            blends, digraphs, vowel patterns, word families,
-            and high-frequency words.
+            My experience includes supporting students from kindergarten through eighth grade, with six years devoted to working with young children with special needs. I am passionate about helping every student become a confident reader and writer.
           </p>
+
+          <div class="teacher-interests" aria-label="Ms. Caro's interests">
+            <p>Outside the classroom, I enjoy:</p>
+            <div>
+              <span>✈️ Traveling</span>
+              <span>♥ Family time</span>
+              <span>♫ Country music</span>
+              <span>📖 Reading</span>
+            </div>
+          </div>
+
+          <dl class="teacher-facts" aria-label="Teacher profile details">
+            <div><dt>Grade</dt><dd>Third Grade</dd></div>
+            <div><dt>Experience</dt><dd>6 years</dd></div>
+            <div><dt>Family contact</dt><dd>Monday–Friday, 3:30–5:00 p.m.</dd></div>
+          </dl>
+
+          <div class="teacher-belief">
+            <span aria-hidden="true">“</span>
+            <p>Small steps in reading can open doors to very big dreams.</p>
+          </div>
+
+          <div class="teacher-contact">
+            <div>
+              <span class="contact-icon" aria-hidden="true">✉</span>
+              <span><small>Email</small><a href="mailto:may.caro001@mymdc.net">may.caro001@mymdc.net</a></span>
+            </div>
+            <a class="button button-primary" href="mailto:may.caro001@mymdc.net">Email Ms. Caro</a>
+          </div>
         </div>
-
-
-        <div class="card">
-          <h3>✏️ Writing Practice</h3>
-
-          <p>
-            Students practice writing complete sentences,
-            using capitalization and punctuation,
-            spelling words correctly, and organizing their ideas.
-          </p>
-        </div>
-
-
-        <div class="card">
-          <h3>💬 Vocabulary</h3>
-
-          <p>
-            Students learn new vocabulary through stories,
-            classroom discussions, pictures, reading passages,
-            and meaningful literacy activities.
-          </p>
-        </div>
-
       </div>
-
     </section>
 
-
-    <!-- CLASS UPDATES -->
-    <section id="updates">
-
-      <h2>Class Updates</h2>
-
-      <div class="updates">
-
-        <h3>What’s New This Week?</h3>
-
-        <p>
-          We add new classroom activities and literacy updates regularly.
-          Students may be working on reading comprehension passages,
-          phonics activities, spelling words, vocabulary,
-          or written responses connected to a story.
-        </p>
-
-        <p>
-          Families can check this section for classroom reminders,
-          upcoming literacy activities, reading goals,
-          assignments, and important classroom information.
-        </p>
-
+    <section id="curriculum" class="content-section curriculum-section">
+      <div class="section-heading light-heading">
+        <p class="eyebrow">Florida learning connections</p>
+        <h2>What Are We Learning?</h2>
+        <p>These trusted guides explain third-grade English Language Arts standards, curriculum, and assessment information in family-friendly language.</p>
       </div>
 
+      <div class="resource-grid">
+        <article class="resource-card accent-yellow">
+          <div class="logo-stage"><img src="images/resources/fdoe.png" alt="Florida Department of Education logo"></div>
+          <p class="card-kicker">Family guide</p>
+          <h3>FDOE Grade 3 Parent Guide</h3>
+          <p>Review the reading, writing, vocabulary, and communication skills third graders are expected to develop.</p>
+          <a class="card-link" href="https://www.fldoe.org/core/fileparse.php/7539/urlt/Parent-Guide-Grade-3-Standards.pdf" target="_blank" rel="noopener">View parent guide <span aria-hidden="true">↗</span></a>
+        </article>
+
+        <article class="resource-card accent-coral">
+          <div class="logo-stage"><img src="images/resources/cpalms.svg" alt="CPALMS logo"></div>
+          <p class="card-kicker">Standards search</p>
+          <h3>CPALMS Grade 3 Standards</h3>
+          <p>Search Florida benchmarks and explore instructional resources for third-grade English Language Arts.</p>
+          <a class="card-link" href="https://www.cpalms.org/public/search/Standard" target="_blank" rel="noopener">Open CPALMS <span aria-hidden="true">↗</span></a>
+        </article>
+
+        <article class="resource-card accent-blue">
+          <div class="logo-stage"><img src="images/resources/best-standards.png" alt="Florida B.E.S.T. Standards"></div>
+          <p class="card-kicker">Official benchmarks</p>
+          <h3>Florida ELA B.E.S.T.</h3>
+          <p>Read the complete Benchmarks for Excellent Student Thinking for English Language Arts.</p>
+          <a class="card-link" href="https://www.fldoe.org/core/fileparse.php/7539/urlt/elabeststandardsfinal.pdf" target="_blank" rel="noopener">Open standards PDF <span aria-hidden="true">↗</span></a>
+        </article>
+
+        <article class="resource-card accent-green">
+          <div class="logo-stage"><img src="images/resources/fast.png" alt="Florida Statewide Assessments logo"></div>
+          <p class="card-kicker">Assessment support</p>
+          <h3>FAST Students & Families</h3>
+          <p>Learn about the Florida Assessment of Student Thinking and find reports and resources for families.</p>
+          <a class="card-link" href="https://flfast.org/families.html" target="_blank" rel="noopener">Visit FAST <span aria-hidden="true">↗</span></a>
+        </article>
+
+        <article class="resource-card accent-purple curriculum-wide">
+          <div class="logo-stage"><img src="images/resources/wonders.jfif" alt="Florida Wonders logo"></div>
+          <div>
+            <p class="card-kicker">Core literacy program</p>
+            <h3>Florida Wonders</h3>
+            <p>Explore the reading, writing, vocabulary, and language program used to build connected literacy skills.</p>
+            <a class="card-link" href="https://www.mheducation.com/prek-12/states/florida/browse/ela/wonders" target="_blank" rel="noopener">Explore Wonders <span aria-hidden="true">↗</span></a>
+          </div>
+        </article>
+      </div>
     </section>
 
-
-    <!-- CLASSROOM MOMENTS -->
-    <section id="gallery">
-
-      <h2>Classroom Moments</h2>
-
-      <p>
-        Here are some of our favorite classroom moments.
-        Students participate in hands-on literacy activities
-        that strengthen phonics, spelling, reading comprehension,
-        vocabulary, and writing skills.
-      </p>
-
-
-      <div class="gallery">
-
-        <div class="photo">
-          <img
-            src="images/phonics.jpg"
-            alt="Student participating in a phonics activity">
-        </div>
-
-
-        <div class="photo">
-          <img
-            src="images/reading.jpg"
-            alt="Student completing a reading activity">
-        </div>
-
-
-        <div class="photo">
-          <img
-            src="images/spelling.jpg"
-            alt="Student practicing spelling words">
-        </div>
-
+    <section id="goals" class="content-section goals-section">
+      <div class="section-heading">
+        <p class="eyebrow">Skills that grow together</p>
+        <h2>Our Third-Grade Literacy Goals</h2>
+        <p>Each goal supports children as they become more accurate, expressive, thoughtful, and independent readers and writers.</p>
       </div>
 
+      <div class="goal-grid">
+        <article class="goal-card"><span class="goal-number">01</span><span class="goal-icon" aria-hidden="true">🗣️</span><p class="benchmark">ELA.3.C.2.1</p><h3>Oral Language</h3><p>Present ideas in a logical order using clear pronunciation, appropriate volume, expression, and academic vocabulary.</p></article>
+        <article class="goal-card"><span class="goal-number">02</span><span class="goal-icon" aria-hidden="true">👂</span><p class="benchmark">Foundational review</p><h3>Sound Awareness</h3><p>Review blending, segmenting, and manipulating sounds when extra practice is needed for stronger decoding and spelling.</p></article>
+        <article class="goal-card"><span class="goal-number">03</span><span class="goal-icon" aria-hidden="true">🔤</span><p class="benchmark">ELA.3.F.1.3</p><h3>Phonics & Word Analysis</h3><p>Decode multisyllabic words and recognize useful prefixes, suffixes, and common Greek and Latin roots.</p></article>
+        <article class="goal-card featured-goal"><span class="goal-number">04</span><span class="goal-icon" aria-hidden="true">📖</span><p class="benchmark">ELA.3.F.1.4</p><h3>Fluency</h3><p>Read grade-level text accurately, automatically, and with phrasing and expression that support meaning.</p><a class="fluency-target" href="https://www.readingrockets.org/topics/fluency/articles/fluency-norms-chart-2017-update" target="_blank" rel="noopener"><strong>112 WCPM</strong><span>Spring oral-reading target ↗</span></a></article>
+        <article class="goal-card"><span class="goal-number">05</span><span class="goal-icon" aria-hidden="true">💡</span><p class="benchmark">ELA.3.V.1.1–1.3</p><h3>Vocabulary</h3><p>Determine word meanings with context, word parts, reference tools, figurative language, and background knowledge.</p></article>
+        <article class="goal-card"><span class="goal-number">06</span><span class="goal-icon" aria-hidden="true">🧠</span><p class="benchmark">ELA.3.R.1–R.3</p><h3>Comprehension</h3><p>Explain characters, themes, central ideas, text structures, author’s purpose, claims, and evidence.</p></article>
+        <article class="goal-card"><span class="goal-number">07</span><span class="goal-icon" aria-hidden="true">✏️</span><p class="benchmark">ELA.3.C.1.1–1.5</p><h3>Writing</h3><p>Plan, draft, revise, and edit organized narratives, opinions, and informational texts with meaningful details.</p></article>
+      </div>
     </section>
 
-
-    <!-- FAMILY RESOURCES -->
-    <section id="resources">
-
-      <h2>Family Literacy Resources</h2>
-
-      <p>
-        Families play an important role in helping children become
-        successful readers and writers. Here are simple ways to
-        support literacy learning at home.
-      </p>
-
-
-      <div class="resource-list">
-
-        <div class="resource">
-          <strong>📚 Read Together:</strong>
-          Read with your child for 15–20 minutes each day.
-        </div>
-
-
-        <div class="resource">
-          <strong>🔎 Ask Questions:</strong>
-          Ask your child what happened first, what happened next,
-          why a character made a decision, and what may happen next.
-        </div>
-
-
-        <div class="resource">
-          <strong>📝 Practice Writing:</strong>
-          Encourage your child to write simple sentences,
-          journal entries, or short responses about a story.
-        </div>
-
-
-        <div class="resource">
-          <strong>🔤 Practice Words:</strong>
-          Review sight words, spelling words, letter sounds,
-          blends, phonics patterns, and classroom vocabulary.
-        </div>
-
-
-        <div class="resource">
-          <strong>🎲 Make Learning Fun:</strong>
-          Use word games, rhyming activities, flashcards,
-          magnetic letters, and family reading challenges.
-        </div>
-
+    <section id="home-learning" class="content-section home-learning-section">
+      <div class="section-heading">
+        <p class="eyebrow">Click • learn • grow</p>
+        <h2>Learning at Home</h2>
+        <p>Turn screen time into purposeful practice with these family-friendly literacy resources.</p>
       </div>
 
+      <div class="learning-grid">
+        <a class="learning-card" href="https://www.starfall.com/" target="_blank" rel="noopener"><div class="learning-logo"><img src="images/resources/starfall.jfif" alt="Starfall"></div><div><h3>Starfall</h3><p>Starfall offers interactive practice with phonics, word recognition, vocabulary, and reading. Families can choose a short activity that matches a child’s needs and then ask the child to read the practiced words in a sentence.</p><span>Start learning ↗</span></div></a>
+        <a class="learning-card" href="https://storylineonline.net/" target="_blank" rel="noopener"><div class="learning-logo"><img src="images/resources/storyline-online.jfif" alt="Storyline Online"></div><div><h3>Storyline Online</h3><p>Storyline Online features children’s books read aloud by professional actors. Families can pause before, during, and after the story to discuss new words, make predictions, describe characters, and identify the message.</p><span>Listen together ↗</span></div></a>
+        <a class="learning-card" href="https://pbskids.org/" target="_blank" rel="noopener"><div class="learning-logo"><img src="images/resources/pbs-kids.png" alt="PBS KIDS"></div><div><h3>PBS KIDS</h3><p>PBS KIDS provides free games, videos, and activities that develop language, storytelling, vocabulary, and comprehension. Parents can select a literacy activity, play alongside their child, and invite the child to explain what they learned.</p><span>Explore activities ↗</span></div></a>
+      </div>
     </section>
 
-
-    <!-- STAY CONNECTED -->
-    <section id="contact">
-
-      <div class="contact">
-
-        <h2>Stay Connected</h2>
-
-        <p>
-          Family communication is an important part of student success.
-          Please reach out if you have questions about classroom activities,
-          reading practice, assignments, or ways to support your child at home.
-        </p>
-
-        <p>
-          <strong>Teacher: May Caro</strong>
-        </p>
-
-        <p>
-          <strong>Email: may.caro001@mymdc.net</strong>
-        </p>
-
-        <a
-          class="button"
-          href="mailto:may.caro001@mymdc.net">
-          Email the Teacher
-        </a>
-
+    <section id="books" class="content-section books-section">
+      <div class="section-heading light-heading">
+        <p class="eyebrow">Stories worth sharing</p>
+        <h2>Ms. Caro's Family Bookshelf</h2>
+        <p>Read together, talk together, and use these questions to turn every story into a meaningful conversation.</p>
       </div>
 
+      <div class="book-grid">
+        <article class="book-card"><img src="images/books/charlottes-web.jpg" alt="Charlotte's Web book cover"><div class="book-copy"><p class="book-author">E. B. White</p><h3>Charlotte's Web</h3><p>Wilbur, a young pig, forms a special friendship with Charlotte, a clever spider who uses her words to help save him. The story explores friendship, loyalty, kindness, change, and sacrifice.</p><details><summary>5 questions: before, during & after</summary><div class="question-stage"><strong>Before reading</strong><ol><li>What do you predict the story will be about from the title and cover?</li><li>What qualities make someone a good friend?</li></ol><strong>During reading</strong><ol start="3"><li>How does Charlotte help Wilbur, and what does that reveal about her?</li><li>How does Wilbur change as the story develops?</li></ol><strong>After reading</strong><ol start="5"><li>What theme about friendship develops? Use details from the story.</li></ol></div></details></div></article>
+        <article class="book-card"><img src="images/books/boxcar-children.jpg" alt="The Boxcar Children book cover"><div class="book-copy"><p class="book-author">Gertrude Chandler Warner</p><h3>The Boxcar Children</h3><p>Henry, Jessie, Violet, and Benny work together to create a home in an abandoned boxcar. Their adventure highlights family, independence, cooperation, responsibility, and problem-solving.</p><details><summary>5 questions: before, during & after</summary><div class="question-stage"><strong>Before reading</strong><ol><li>What do you think living in a boxcar would be like?</li><li>What supplies would you need to create a safe home?</li></ol><strong>During reading</strong><ol start="3"><li>What problems do the children face, and how do they solve them?</li><li>Which character trait helps the siblings work together most?</li></ol><strong>After reading</strong><ol start="5"><li>What does the story teach about family and teamwork? Support your answer.</li></ol></div></details></div></article>
+        <article class="book-card"><img src="images/books/wizard-of-oz.webp" alt="The Wonderful Wizard of Oz book cover"><div class="book-copy"><p class="book-author">L. Frank Baum</p><h3>The Wonderful Wizard of Oz</h3><p>Dorothy travels through the Land of Oz with the Scarecrow, Tin Woodman, and Cowardly Lion. Their journey explores courage, intelligence, love, friendship, and believing in yourself.</p><details><summary>5 questions: before, during & after</summary><div class="question-stage"><strong>Before reading</strong><ol><li>What do you predict Dorothy will experience on her journey?</li><li>What does courage mean to you?</li></ol><strong>During reading</strong><ol start="3"><li>How do Dorothy and her friends help one another?</li><li>How do the characters show qualities they believe they are missing?</li></ol><strong>After reading</strong><ol start="5"><li>What lesson does the journey teach about recognizing your own strengths?</li></ol></div></details></div></article>
+      </div>
     </section>
 
+    <section id="word-wall" class="content-section word-wall-section">
+      <div class="section-heading">
+        <p class="eyebrow">Notice the pattern</p>
+        <h2>Word-Work Wall</h2>
+        <p>Our word wall is organized by useful patterns so children can connect spelling, meaning, and decoding strategies.</p>
+      </div>
+
+      <div class="word-groups">
+        <article class="word-group heart-words"><div class="word-title"><span aria-hidden="true">♥</span><h3>Heart Words</h3></div><p>because • could • would • should • their • there • where • thought • through • enough • know • does</p></article>
+        <article class="word-group prefix-words"><div class="word-title"><span aria-hidden="true">↻</span><h3>Prefixes</h3></div><p>reread • rewrite • preview • unhappy • dislike • return • unable • incorrect • pretest • rebuild</p></article>
+        <article class="word-group suffix-words"><div class="word-title"><span aria-hidden="true">+</span><h3>Suffixes</h3></div><p>helpful • hopeful • careful • fearless • careless • tallest • fastest • kindness • movement</p></article>
+        <article class="word-group root-words"><div class="word-title"><span aria-hidden="true">🌱</span><h3>Roots & Families</h3></div><p>transport • portable • telephone • telescope • autograph • photograph • recycle • bicycle</p></article>
+        <article class="word-group long-words"><div class="word-title"><span aria-hidden="true">✂</span><h3>Multisyllabic Words</h3></div><p>important • remember • different • information • understand • wonderful • together • discover • character</p></article>
+      </div>
+
+      <div class="strategy-row">
+        <article><span>1</span><h3>Heart Word Mapping</h3><p>Say the word, stretch its sounds, map the sounds to letters, and draw a heart under the unexpected spelling. Then read and write the whole word.</p></article>
+        <article><span>2</span><h3>Word Detective</h3><p>Find a target word while reading. Circle its base word and identify any prefix, suffix, root, or surprising spelling pattern.</p></article>
+        <article><span>3</span><h3>Read • Build • Write</h3><p>Read the word, build it with letter tiles, break it into meaningful parts, write it, and use it in an original sentence.</p></article>
+      </div>
+      <div class="strategy-sources">
+        <a href="https://www.readingrockets.org/topics/phonics-and-decoding/articles/new-model-teaching-high-frequency-words" target="_blank" rel="noopener">Reading Rockets: A New Model for High-Frequency Words ↗</a>
+        <a href="https://ufli.education.ufl.edu/resources/teaching-resources/instructional-activities/irregular-and-high-frequency-words/" target="_blank" rel="noopener">UFLI: Irregular & High-Frequency Words ↗</a>
+      </div>
+    </section>
+
+    <section id="community" class="content-section community-section">
+      <div class="section-heading">
+        <p class="eyebrow">Reading beyond the classroom</p>
+        <h2>Community Connections</h2>
+        <p>Miami-Dade families can find books, storytimes, learning programs, and support close to home.</p>
+      </div>
+
+      <div class="community-grid">
+        <article class="community-card"><div class="community-logo"><img src="images/resources/mdpls.svg" alt="Miami-Dade Public Library System"></div><p class="event-label">Free • Recurring</p><h3>Family Storytimes at MDPLS</h3><p>Families listen to stories, songs, and shared-reading activities at neighborhood branches. Attending builds listening comprehension, oral vocabulary, sequencing, and excitement about books.</p><a class="card-link" href="https://mdpls.org/events?t=Storytime" target="_blank" rel="noopener">Find a storytime <span aria-hidden="true">↗</span></a></article>
+        <article class="community-card"><div class="community-logo"><img src="images/resources/museum-of-miami.svg" alt="Museum of Miami"></div><p class="event-label">Free • Second Saturday</p><h3>Family Fun Day</h3><p>Museum of Miami offers a free family day each month with exhibits and hands-on activities. Children strengthen background knowledge, ask questions, read exhibit text, and retell what they discovered.</p><a class="card-link" href="https://museumofmiami.org/whats-happening/family-fun-days/" target="_blank" rel="noopener">Plan a family day <span aria-hidden="true">↗</span></a></article>
+        <article class="community-card"><div class="community-logo frost-wordmark" aria-label="Frost Art Museum at FIU"><strong>FROST</strong><span>ART MUSEUM • FIU</span></div><p class="event-label">Always free</p><h3>Frost Art Museum</h3><p>Families can explore exhibitions and discuss what they notice, wonder, and infer. Talking and writing about art develop descriptive vocabulary, observation, evidence-based thinking, and storytelling.</p><a class="card-link" href="https://frost.fiu.edu/visit/" target="_blank" rel="noopener">Visit the museum <span aria-hidden="true">↗</span></a></article>
+      </div>
+      <p class="schedule-note"><span aria-hidden="true">📅</span> Community schedules change. Please check the organization’s current calendar before attending.</p>
+    </section>
+
+    <section id="parents" class="content-section parent-section">
+      <div class="parent-intro">
+        <div><p class="eyebrow">A guide for grown-ups</p><h2>Parent Literacy Toolbox</h2><p>Simple, trusted resources can make reading practice feel more focused—and much more enjoyable.</p></div>
+        <div class="twenty-badge"><strong>20</strong><span>minutes of reading<br>each day</span></div>
+      </div>
+
+      <div class="parent-links">
+        <a href="https://www.readysetgomiami.com/caregivers" target="_blank" rel="noopener"><span>RSG</span><div><strong>READy, SET, GO Miami!</strong><small>Free early-literacy guides for caregivers and families with younger children</small></div><b aria-hidden="true">↗</b></a>
+        <a href="https://fcrr.org/families" target="_blank" rel="noopener"><span>FCRR</span><div><strong>Family Resources</strong><small>Research-informed literacy support</small></div><b aria-hidden="true">↗</b></a>
+        <a href="https://fcrr.org/supporting-your-childs-reading-home" target="_blank" rel="noopener"><span>HOME</span><div><strong>Reading at Home</strong><small>Activities from simpler to more challenging</small></div><b aria-hidden="true">↗</b></a>
+        <a href="https://www.fldoe.org/academics/standards/just-read-fl/parent-guides-for-english-language-arts.stml" target="_blank" rel="noopener"><span>FDOE</span><div><strong>Parent Guides</strong><small>Understand grade-level expectations</small></div><b aria-hidden="true">↗</b></a>
+        <a href="https://www.readingrockets.org/" target="_blank" rel="noopener"><span>RR</span><div><strong>Reading Rockets</strong><small>Tips, videos, strategies, and activities</small></div><b aria-hidden="true">↗</b></a>
+      </div>
+
+      <div class="reading-challenge">
+        <div class="challenge-copy"><p class="eyebrow">Try it this week</p><h3>The 20-Minute Family Reading Challenge</h3><p>One small reading moment each day can build vocabulary, fluency, comprehension, and family connection.</p></div>
+        <div class="week-grid"><div><strong>Mon</strong><span>Read together</span></div><div><strong>Tue</strong><span>Read aloud</span></div><div><strong>Wed</strong><span>Take turns</span></div><div><strong>Thu</strong><span>Try a new spot</span></div><div><strong>Fri</strong><span>Listen to a story</span></div><div><strong>Sat</strong><span>Read & create</span></div><div><strong>Sun</strong><span>Share a favorite part</span></div></div>
+      </div>
+    </section>
+
+    <section id="references" class="content-section references-section">
+      <div class="section-heading compact-heading"><p class="eyebrow">Sources behind our learning</p><h2>References</h2></div>
+      <div class="reference-list">
+        <p>Florida Department of Education. (n.d.). <em>Parent guides for English Language Arts.</em></p>
+        <p>Florida Department of Education. (2020). <em>Florida B.E.S.T. standards: English Language Arts.</em></p>
+        <p>Florida Department of Education. (n.d.). <em>Florida Assessment of Student Thinking: Students & families.</em></p>
+        <p>Florida Center for Reading Research. (n.d.). <em>Family resources.</em></p>
+        <p>McGraw Hill. (n.d.). <em>Florida Wonders.</em></p>
+        <p>Reading Rockets. (n.d.). <em>A new model for teaching high-frequency words.</em></p>
+        <p>Hasbrouck, J., &amp; Tindal, G. (2017). <em>Fluency norms chart: 2017 update.</em> Reading Rockets.</p>
+        <p>University of Florida Literacy Institute. (n.d.). <em>Irregular and high-frequency words.</em></p>
+        <p>Starfall Education Foundation. (n.d.). <em>Starfall.</em></p>
+        <p>Storyline Online. (n.d.). <em>Storyline Online.</em></p>
+        <p>PBS KIDS. (n.d.). <em>PBS KIDS.</em></p>
+        <p>Miami-Dade Public Library System. (n.d.). <em>Events.</em></p>
+        <p>Museum of Miami. (n.d.). <em>Family Fun Days.</em></p>
+        <p>Patricia &amp; Phillip Frost Art Museum. (n.d.). <em>Visitor information.</em></p>
+        <p>READy, SET, GO Miami! (n.d.). <em>Early literacy resources for caregivers.</em></p>
+      </div>
+    </section>
   </main>
 
-
-  <!-- FOOTER -->
-  <footer>
-
-    <p>
-      © 2026 Literacy Learning Classroom |
-      Growing Readers, Writers, and Thinkers
-    </p>
-
+  <footer class="site-footer">
+    <div class="footer-main"><div><span class="footer-mark" aria-hidden="true">MC</span><div><strong>Ms. Caro's Literacy Learning Classroom</strong><p>Helping readers grow one meaningful page at a time.</p></div></div><a href="mailto:may.caro001@mymdc.net">may.caro001@mymdc.net</a></div>
+    <div class="footer-bottom"><a href="https://www.mdc.edu/" target="_blank" rel="noopener" aria-label="Visit Miami Dade College"><img src="images/resources/mdc.png" alt="Miami Dade College"></a><p>© 2026 Ms. Caro's Literacy Learning Classroom</p><a href="#home">Back to top ↑</a></div>
   </footer>
 
-
-  <script src="./script.js"></script>
-
+  <script src="./script.js?v=3"></script>
 </body>
-
 </html>

@@ -1,289 +1,1787 @@
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-  <title>Literacy Learning Classroom</title>
-
-  <!-- Connects the website to the design file -->
-  <link rel="stylesheet" href="./style.css?v=2">
-</head>
-
-<body>
-
-  <!-- HEADER -->
-  <header>
-    <h1>📚 Literacy Learning Classroom</h1>
-
-    <p>
-      A place where families can stay connected, celebrate student growth,
-      and support reading and writing at home.
-    </p>
-  </header>
-
-
-  <!-- NAVIGATION -->
-  <nav>
-    <a href="#home">Home</a>
-    <a href="#learning">Literacy Learning</a>
-    <a href="#updates">Class Updates</a>
-    <a href="#gallery">Classroom Moments</a>
-    <a href="#resources">Family Resources</a>
-    <a href="#contact">Stay Connected</a>
-  </nav>
-
-
-  <main>
-
-    <!-- HOME -->
-    <section id="home" class="welcome">
-
-      <h2>Welcome Families!</h2>
-
-      <p>
-        Welcome to our Literacy Learning Classroom!
-        This website is designed to help families stay informed
-        about what students are learning in reading and writing.
-      </p>
-
-      <p>
-        Here you will find classroom updates, literacy activities,
-        helpful family resources, and examples of the exciting work
-        students are completing in the classroom.
-      </p>
-
-      <p>
-        Our goal is to build confident readers and writers through
-        meaningful practice, engaging stories, phonics, vocabulary,
-        reading comprehension, spelling, and writing activities.
-      </p>
-
-    </section>
-
-
-    <!-- LITERACY LEARNING -->
-    <section id="learning">
-
-      <h2>What We Are Learning</h2>
-
-      <div class="cards">
-
-        <div class="card">
-          <h3>📖 Reading Comprehension</h3>
-
-          <p>
-            Students practice identifying the main idea, key details,
-            characters, setting, sequence of events, making predictions,
-            and answering questions about a text.
-          </p>
-        </div>
-
-
-        <div class="card">
-          <h3>🔤 Phonics & Word Work</h3>
-
-          <p>
-            Students develop decoding skills by practicing letter sounds,
-            blends, digraphs, vowel patterns, word families,
-            and high-frequency words.
-          </p>
-        </div>
-
-
-        <div class="card">
-          <h3>✏️ Writing Practice</h3>
-
-          <p>
-            Students practice writing complete sentences,
-            using capitalization and punctuation,
-            spelling words correctly, and organizing their ideas.
-          </p>
-        </div>
-
-
-        <div class="card">
-          <h3>💬 Vocabulary</h3>
-
-          <p>
-            Students learn new vocabulary through stories,
-            classroom discussions, pictures, reading passages,
-            and meaningful literacy activities.
-          </p>
-        </div>
-
-      </div>
-
-    </section>
-
-
-    <!-- CLASS UPDATES -->
-    <section id="updates">
-
-      <h2>Class Updates</h2>
-
-      <div class="updates">
-
-        <h3>What’s New This Week?</h3>
-
-        <p>
-          We add new classroom activities and literacy updates regularly.
-          Students may be working on reading comprehension passages,
-          phonics activities, spelling words, vocabulary,
-          or written responses connected to a story.
-        </p>
-
-        <p>
-          Families can check this section for classroom reminders,
-          upcoming literacy activities, reading goals,
-          assignments, and important classroom information.
-        </p>
-
-      </div>
-
-    </section>
-
-
-    <!-- CLASSROOM MOMENTS -->
-    <section id="gallery">
-
-      <h2>Classroom Moments</h2>
-
-      <p>
-        Here are some of our favorite classroom moments.
-        Students participate in hands-on literacy activities
-        that strengthen phonics, spelling, reading comprehension,
-        vocabulary, and writing skills.
-      </p>
-
-
-      <div class="gallery">
-
-        <div class="photo">
-          <img
-            src="images/phonics.jpg"
-            alt="Student participating in a phonics activity">
-        </div>
-
-
-        <div class="photo">
-          <img
-            src="images/reading.jpg"
-            alt="Student completing a reading activity">
-        </div>
-
-
-        <div class="photo">
-          <img
-            src="images/spelling.jpg"
-            alt="Student practicing spelling words">
-        </div>
-
-      </div>
-
-    </section>
-
-
-    <!-- FAMILY RESOURCES -->
-    <section id="resources">
-
-      <h2>Family Literacy Resources</h2>
-
-      <p>
-        Families play an important role in helping children become
-        successful readers and writers. Here are simple ways to
-        support literacy learning at home.
-      </p>
-
-
-      <div class="resource-list">
-
-        <div class="resource">
-          <strong>📚 Read Together:</strong>
-          Read with your child for 15–20 minutes each day.
-        </div>
-
-
-        <div class="resource">
-          <strong>🔎 Ask Questions:</strong>
-          Ask your child what happened first, what happened next,
-          why a character made a decision, and what may happen next.
-        </div>
-
-
-        <div class="resource">
-          <strong>📝 Practice Writing:</strong>
-          Encourage your child to write simple sentences,
-          journal entries, or short responses about a story.
-        </div>
-
-
-        <div class="resource">
-          <strong>🔤 Practice Words:</strong>
-          Review sight words, spelling words, letter sounds,
-          blends, phonics patterns, and classroom vocabulary.
-        </div>
-
-
-        <div class="resource">
-          <strong>🎲 Make Learning Fun:</strong>
-          Use word games, rhyming activities, flashcards,
-          magnetic letters, and family reading challenges.
-        </div>
-
-      </div>
-
-    </section>
-
-
-    <!-- STAY CONNECTED -->
-    <section id="contact">
-
-      <div class="contact">
-
-        <h2>Stay Connected</h2>
-
-        <p>
-          Family communication is an important part of student success.
-          Please reach out if you have questions about classroom activities,
-          reading practice, assignments, or ways to support your child at home.
-        </p>
-
-        <p>
-          <strong>Teacher: May Caro</strong>
-        </p>
-
-        <p>
-          <strong>Email: may.caro001@mymdc.net</strong>
-        </p>
-
-        <a
-          class="button"
-          href="mailto:may.caro001@mymdc.net">
-          Email the Teacher
-        </a>
-
-      </div>
-
-    </section>
-
-  </main>
-
-
-  <!-- FOOTER -->
-  <footer>
-
-    <p>
-      © 2026 Literacy Learning Classroom |
-      Growing Readers, Writers, and Thinkers
-    </p>
-
-  </footer>
-
-
-  <script src="./script.js"></script>
-
-</body>
-
-</html>
+:root {
+  --ink: #12313a;
+  --muted: #55727a;
+  --paper: #fffdf7;
+  --white: #ffffff;
+  --teal-950: #073b4c;
+  --teal-800: #0b5866;
+  --teal-500: #20a39e;
+  --sky: #59c3e6;
+  --coral: #ff6b5f;
+  --yellow: #ffd166;
+  --green: #7bc96f;
+  --purple: #8f7bd8;
+  --line: #dce8e6;
+  --shadow-sm: 0 10px 30px rgba(7, 59, 76, 0.08);
+  --shadow-lg: 0 24px 70px rgba(7, 59, 76, 0.16);
+  --radius-sm: 16px;
+  --radius-md: 24px;
+  --radius-lg: 36px;
+  --max-width: 1180px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 112px;
+}
+
+body {
+  margin: 0;
+  color: var(--ink);
+  background: var(--paper);
+  font-family: "DM Sans", Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.65;
+  overflow-x: hidden;
+}
+
+body.menu-open {
+  overflow: hidden;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+a {
+  color: inherit;
+}
+
+button,
+a {
+  -webkit-tap-highlight-color: transparent;
+}
+
+button,
+input,
+textarea,
+select {
+  font: inherit;
+}
+
+h1,
+h2,
+h3,
+p {
+  margin-top: 0;
+}
+
+h1,
+h2,
+h3 {
+  text-wrap: balance;
+}
+
+h1,
+h2 {
+  font-family: "Fraunces", Georgia, serif;
+  line-height: 1.08;
+}
+
+h2 {
+  margin-bottom: 18px;
+  font-size: clamp(2.15rem, 6vw, 4rem);
+  letter-spacing: -0.035em;
+}
+
+h3 {
+  margin-bottom: 10px;
+  font-size: 1.28rem;
+  line-height: 1.25;
+}
+
+p {
+  margin-bottom: 18px;
+}
+
+:focus-visible {
+  outline: 4px solid var(--yellow);
+  outline-offset: 4px;
+}
+
+.skip-link {
+  position: fixed;
+  top: 12px;
+  left: 12px;
+  z-index: 1000;
+  padding: 10px 16px;
+  color: var(--white);
+  background: var(--teal-950);
+  border-radius: 10px;
+  transform: translateY(-150%);
+  transition: transform 0.2s ease;
+}
+
+.skip-link:focus {
+  transform: translateY(0);
+}
+
+.top-note {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  min-height: 34px;
+  padding: 6px 16px;
+  color: var(--teal-950);
+  background: var(--yellow);
+  font-size: 0.78rem;
+  font-weight: 700;
+  line-height: 1.35;
+  text-align: center;
+}
+
+.site-header {
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  min-height: 76px;
+  padding: 10px clamp(18px, 4vw, 56px);
+  background: rgba(255, 253, 247, 0.96);
+  border-bottom: 1px solid rgba(7, 59, 76, 0.1);
+  box-shadow: 0 4px 20px rgba(7, 59, 76, 0.05);
+  backdrop-filter: blur(12px);
+}
+
+.brand {
+  display: inline-flex;
+  align-items: center;
+  gap: 12px;
+  text-decoration: none;
+}
+
+.brand-mark,
+.footer-mark {
+  display: grid;
+  flex: 0 0 auto;
+  place-items: center;
+  width: 48px;
+  height: 48px;
+  color: var(--white);
+  background: var(--teal-950);
+  border: 4px solid var(--yellow);
+  border-radius: 16px 16px 16px 5px;
+  font-family: "Fraunces", Georgia, serif;
+  font-weight: 700;
+  box-shadow: 4px 4px 0 var(--coral);
+}
+
+.brand strong,
+.brand small {
+  display: block;
+}
+
+.brand strong {
+  font-family: "Fraunces", Georgia, serif;
+  font-size: 1.02rem;
+  line-height: 1.15;
+}
+
+.brand small {
+  margin-top: 2px;
+  color: var(--muted);
+  font-size: 0.73rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  line-height: 1.2;
+  text-transform: uppercase;
+}
+
+.menu-toggle {
+  display: inline-grid;
+  grid-template-columns: 22px auto;
+  align-items: center;
+  gap: 8px;
+  min-height: 44px;
+  padding: 8px 12px;
+  color: var(--teal-950);
+  background: transparent;
+  border: 2px solid var(--teal-950);
+  border-radius: 999px;
+  cursor: pointer;
+  font-size: 0.85rem;
+  font-weight: 700;
+}
+
+.menu-lines,
+.menu-lines::before,
+.menu-lines::after {
+  display: block;
+  width: 20px;
+  height: 2px;
+  background: currentColor;
+  border-radius: 2px;
+  transition: transform 0.22s ease, opacity 0.22s ease;
+}
+
+.menu-lines {
+  position: relative;
+}
+
+.menu-lines::before,
+.menu-lines::after {
+  position: absolute;
+  left: 0;
+  content: "";
+}
+
+.menu-lines::before {
+  top: -6px;
+}
+
+.menu-lines::after {
+  top: 6px;
+}
+
+.menu-toggle[aria-expanded="true"] .menu-lines {
+  background: transparent;
+}
+
+.menu-toggle[aria-expanded="true"] .menu-lines::before {
+  top: 0;
+  transform: rotate(45deg);
+}
+
+.menu-toggle[aria-expanded="true"] .menu-lines::after {
+  top: 0;
+  transform: rotate(-45deg);
+}
+
+.site-nav {
+  position: fixed;
+  inset: 110px 14px auto;
+  display: grid;
+  gap: 5px;
+  max-height: calc(100vh - 128px);
+  padding: 16px;
+  overflow-y: auto;
+  visibility: hidden;
+  background: var(--white);
+  border: 1px solid var(--line);
+  border-radius: var(--radius-md);
+  box-shadow: var(--shadow-lg);
+  opacity: 0;
+  transform: translateY(-12px);
+  transition: opacity 0.2s ease, transform 0.2s ease, visibility 0.2s;
+}
+
+.site-nav.is-open {
+  visibility: visible;
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.site-nav a {
+  padding: 11px 13px;
+  border-radius: 12px;
+  font-size: 0.93rem;
+  font-weight: 700;
+  line-height: 1.25;
+  text-decoration: none;
+}
+
+.site-nav a:hover,
+.site-nav a:focus-visible,
+.site-nav a.is-active {
+  color: var(--teal-950);
+  background: #e9f7f5;
+}
+
+.section-shell,
+.content-section {
+  width: 100%;
+}
+
+.hero {
+  position: relative;
+  display: grid;
+  min-height: calc(100vh - 110px);
+  padding: 70px clamp(22px, 5vw, 80px) 88px;
+  overflow: hidden;
+  color: var(--white);
+  background:
+    radial-gradient(circle at 18% 15%, rgba(89, 195, 230, 0.24) 0 15%, transparent 16%),
+    linear-gradient(135deg, var(--teal-950), #075e69 58%, #0e7680);
+}
+
+.hero::before,
+.hero::after {
+  position: absolute;
+  z-index: 0;
+  border-radius: 50%;
+  content: "";
+}
+
+.hero::before {
+  top: -100px;
+  right: -110px;
+  width: 270px;
+  height: 270px;
+  border: 46px solid rgba(255, 209, 102, 0.82);
+}
+
+.hero::after {
+  bottom: -80px;
+  left: 9%;
+  width: 180px;
+  height: 180px;
+  background: rgba(255, 107, 95, 0.17);
+}
+
+.hero-copy,
+.hero-visual {
+  position: relative;
+  z-index: 2;
+}
+
+.hero-copy {
+  align-self: center;
+  max-width: 720px;
+}
+
+.eyebrow {
+  margin-bottom: 14px;
+  color: var(--coral);
+  font-size: 0.78rem;
+  font-weight: 800;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+}
+
+.hero .eyebrow,
+.light-heading .eyebrow {
+  color: var(--yellow);
+}
+
+.hero h1 {
+  max-width: 720px;
+  margin-bottom: 24px;
+  font-size: clamp(3.3rem, 11vw, 7rem);
+  letter-spacing: -0.06em;
+}
+
+.hero h1 span {
+  color: var(--yellow);
+}
+
+.hero-lead {
+  max-width: 650px;
+  margin-bottom: 28px;
+  color: rgba(255, 255, 255, 0.88);
+  font-size: clamp(1.05rem, 2.4vw, 1.22rem);
+  line-height: 1.65;
+}
+
+.hero-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
+.button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 48px;
+  padding: 12px 20px;
+  border: 2px solid transparent;
+  border-radius: 999px;
+  font-size: 0.92rem;
+  font-weight: 800;
+  line-height: 1.2;
+  text-align: center;
+  text-decoration: none;
+  transition: transform 0.2s ease, box-shadow 0.2s ease, background 0.2s ease;
+}
+
+.button:hover {
+  transform: translateY(-2px);
+}
+
+.button-primary {
+  color: var(--teal-950);
+  background: var(--yellow);
+  box-shadow: 0 8px 0 rgba(0, 0, 0, 0.15);
+}
+
+.button-primary:hover {
+  box-shadow: 0 5px 0 rgba(0, 0, 0, 0.15);
+}
+
+.button-secondary {
+  color: var(--white);
+  background: transparent;
+  border-color: rgba(255, 255, 255, 0.55);
+}
+
+.button-secondary:hover {
+  background: rgba(255, 255, 255, 0.1);
+}
+
+.hero-values {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 18px;
+  margin: 34px 0 0;
+  padding: 0;
+  list-style: none;
+  color: rgba(255, 255, 255, 0.85);
+  font-size: 0.85rem;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+}
+
+.hero-values li {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.hero-values span {
+  color: var(--coral);
+}
+
+.hero-visual {
+  display: none;
+}
+
+.hero-wave {
+  position: absolute;
+  right: -5%;
+  bottom: -72px;
+  left: -5%;
+  z-index: 1;
+  height: 130px;
+  background: var(--paper);
+  border-radius: 50% 50% 0 0 / 100% 100% 0 0;
+}
+
+.welcome-band {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 10px 18px;
+  padding: 18px 20px;
+  color: var(--teal-950);
+  background: var(--yellow);
+  font-size: 0.85rem;
+  font-weight: 800;
+  letter-spacing: 0.06em;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.welcome-band p {
+  margin: 0;
+}
+
+.content-section {
+  padding: 78px clamp(20px, 5vw, 64px);
+}
+
+.content-section > * {
+  width: min(100%, var(--max-width));
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.section-heading {
+  max-width: 760px;
+  margin-bottom: 38px;
+}
+
+.section-heading > p:last-child {
+  max-width: 690px;
+  margin-bottom: 0;
+  color: var(--muted);
+  font-size: 1.05rem;
+}
+
+.compact-heading {
+  margin-bottom: 26px;
+}
+
+.light-heading {
+  color: var(--white);
+}
+
+.light-heading > p:last-child {
+  color: rgba(255, 255, 255, 0.78);
+}
+
+.teacher-section {
+  background:
+    linear-gradient(rgba(7, 59, 76, 0.04) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(7, 59, 76, 0.04) 1px, transparent 1px),
+    var(--paper);
+  background-size: 28px 28px;
+}
+
+.teacher-layout {
+  display: grid;
+  gap: 42px;
+  align-items: center;
+}
+
+.portrait-frame {
+  position: relative;
+  width: min(88vw, 440px);
+  margin: 0 auto;
+  padding: 14px;
+  background: var(--yellow);
+  border-radius: 42% 42% 24px 24px;
+  box-shadow: 16px 16px 0 var(--teal-500), var(--shadow-lg);
+  transform: rotate(-2deg);
+}
+
+.teacher-photo {
+  display: block;
+  width: 100%;
+  aspect-ratio: 4 / 5;
+  object-fit: cover;
+  object-position: center 18%;
+  border: 6px solid var(--white);
+  border-radius: 40% 40% 15px 15px;
+}
+
+.portrait-sticker {
+  position: absolute;
+  display: grid;
+  place-items: center;
+  width: 62px;
+  height: 62px;
+  background: var(--white);
+  border-radius: 50%;
+  box-shadow: var(--shadow-sm);
+  font-weight: 800;
+}
+
+.sticker-one {
+  top: 14%;
+  left: -18px;
+  color: var(--coral);
+  transform: rotate(-9deg);
+}
+
+.sticker-two {
+  right: -14px;
+  bottom: 12%;
+  transform: rotate(8deg);
+}
+
+.teacher-copy {
+  padding: 28px;
+  background: rgba(255, 255, 255, 0.92);
+  border: 1px solid var(--line);
+  border-radius: var(--radius-md);
+  box-shadow: var(--shadow-sm);
+}
+
+.teacher-intro {
+  color: var(--teal-800);
+  font-family: "Fraunces", Georgia, serif;
+  font-size: 1.65rem;
+  font-weight: 700;
+}
+
+.teacher-interests {
+  margin: 24px 0;
+}
+
+.teacher-interests > p {
+  margin-bottom: 10px;
+  color: var(--teal-800);
+  font-weight: 800;
+}
+
+.teacher-interests > div {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 9px;
+}
+
+.teacher-interests span {
+  display: inline-flex;
+  align-items: center;
+  min-height: 40px;
+  padding: 8px 13px;
+  color: var(--teal-950);
+  background: var(--white);
+  border: 1px solid rgba(7, 59, 76, 0.14);
+  border-radius: 999px;
+  box-shadow: 0 4px 12px rgba(7, 59, 76, 0.07);
+  font-size: 0.9rem;
+  font-weight: 700;
+}
+
+.teacher-facts {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 12px;
+  margin: 26px 0;
+}
+
+.teacher-facts div {
+  padding: 16px 18px;
+  background: rgba(255, 255, 255, 0.76);
+  border: 1px solid rgba(7, 59, 76, 0.12);
+  border-radius: 16px;
+}
+
+.teacher-facts div:last-child {
+  grid-column: auto;
+}
+
+.teacher-facts dt {
+  margin-bottom: 4px;
+  color: var(--teal-700);
+  font-size: 0.78rem;
+  font-weight: 800;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.teacher-facts dd {
+  margin: 0;
+  color: var(--ink);
+  font-weight: 700;
+}
+
+.teacher-belief {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: 12px;
+  margin: 28px 0;
+  padding: 22px;
+  color: var(--teal-950);
+  background: #e8f7f4;
+  border-left: 6px solid var(--teal-500);
+  border-radius: 0 var(--radius-sm) var(--radius-sm) 0;
+}
+
+.teacher-belief span {
+  color: var(--coral);
+  font-family: Georgia, serif;
+  font-size: 3rem;
+  line-height: 0.8;
+}
+
+.teacher-belief p {
+  margin: 0;
+  font-family: "Fraunces", Georgia, serif;
+  font-size: 1.18rem;
+  font-weight: 600;
+}
+
+.teacher-contact {
+  display: grid;
+  gap: 18px;
+  align-items: center;
+}
+
+.teacher-contact > div {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  min-width: 0;
+}
+
+.contact-icon {
+  display: grid;
+  flex: 0 0 auto;
+  place-items: center;
+  width: 46px;
+  height: 46px;
+  color: var(--white);
+  background: var(--teal-950);
+  border-radius: 14px;
+}
+
+.teacher-contact small,
+.teacher-contact a {
+  display: block;
+}
+
+.teacher-contact small {
+  color: var(--muted);
+  font-size: 0.72rem;
+  font-weight: 800;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.teacher-contact a:not(.button) {
+  overflow-wrap: anywhere;
+  font-weight: 700;
+}
+
+.teacher-contact .button-primary {
+  color: var(--white);
+  background: var(--teal-950);
+}
+
+.curriculum-section {
+  background: var(--teal-950);
+}
+
+.resource-grid {
+  display: grid;
+  gap: 18px;
+}
+
+.resource-card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+  padding: 22px;
+  overflow: hidden;
+  background: var(--white);
+  border-radius: var(--radius-md);
+  box-shadow: 0 12px 0 rgba(0, 0, 0, 0.12);
+}
+
+.resource-card::before {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  height: 7px;
+  background: var(--card-accent);
+  content: "";
+}
+
+.accent-yellow { --card-accent: var(--yellow); }
+.accent-coral { --card-accent: var(--coral); }
+.accent-blue { --card-accent: var(--sky); }
+.accent-green { --card-accent: var(--green); }
+.accent-purple { --card-accent: var(--purple); }
+
+.logo-stage,
+.learning-logo,
+.community-logo {
+  display: grid;
+  place-items: center;
+  overflow: hidden;
+  background: var(--white);
+  border: 1px solid var(--line);
+  border-radius: var(--radius-sm);
+}
+
+.logo-stage {
+  height: 118px;
+  margin-bottom: 20px;
+  padding: 18px;
+}
+
+.logo-stage img {
+  width: auto;
+  max-width: 100%;
+  max-height: 78px;
+  object-fit: contain;
+}
+
+.card-kicker,
+.benchmark,
+.book-author {
+  margin-bottom: 7px;
+  color: var(--coral);
+  font-size: 0.72rem;
+  font-weight: 800;
+  letter-spacing: 0.11em;
+  text-transform: uppercase;
+}
+
+.resource-card > p:not(.card-kicker),
+.community-card > p {
+  color: var(--muted);
+}
+
+.card-link {
+  display: inline-flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 18px;
+  margin-top: auto;
+  padding-top: 16px;
+  color: var(--teal-950);
+  border-top: 1px solid var(--line);
+  font-weight: 800;
+  text-decoration: none;
+}
+
+.card-link span {
+  display: grid;
+  flex: 0 0 auto;
+  place-items: center;
+  width: 32px;
+  height: 32px;
+  background: var(--yellow);
+  border-radius: 50%;
+  transition: transform 0.2s ease;
+}
+
+.card-link:hover span {
+  transform: translate(2px, -2px);
+}
+
+.curriculum-wide {
+  gap: 22px;
+}
+
+.goals-section {
+  background: #f5fbfa;
+}
+
+.goal-grid {
+  display: grid;
+  gap: 16px;
+}
+
+.goal-card {
+  position: relative;
+  min-height: 245px;
+  padding: 24px;
+  overflow: hidden;
+  background: var(--white);
+  border: 1px solid var(--line);
+  border-radius: var(--radius-md);
+  box-shadow: var(--shadow-sm);
+}
+
+.goal-number {
+  position: absolute;
+  right: 16px;
+  bottom: -18px;
+  color: rgba(7, 59, 76, 0.05);
+  font-family: "Fraunces", Georgia, serif;
+  font-size: 7rem;
+  font-weight: 700;
+  line-height: 1;
+}
+
+.goal-icon {
+  display: grid;
+  place-items: center;
+  width: 48px;
+  height: 48px;
+  margin-bottom: 18px;
+  background: #e8f7f4;
+  border-radius: 14px;
+  font-size: 1.45rem;
+}
+
+.goal-card > p:last-child {
+  position: relative;
+  z-index: 1;
+  margin-bottom: 0;
+  color: var(--muted);
+}
+
+.featured-goal {
+  color: var(--white);
+  background: var(--coral);
+  border-color: var(--coral);
+}
+
+.featured-goal .goal-icon {
+  background: rgba(255, 255, 255, 0.18);
+}
+
+.featured-goal .benchmark,
+.featured-goal > p:last-of-type {
+  color: rgba(255, 255, 255, 0.88);
+}
+
+.featured-goal .goal-number {
+  color: rgba(255, 255, 255, 0.1);
+}
+
+.fluency-target {
+  position: relative;
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-top: 20px;
+  padding: 13px 15px;
+  color: var(--teal-950);
+  background: var(--yellow);
+  border-radius: 14px;
+  text-decoration: none;
+  transition: transform 0.2s ease;
+}
+
+.fluency-target:hover {
+  transform: translateY(-2px);
+}
+
+.fluency-target strong,
+.fluency-target span {
+  display: block;
+}
+
+.fluency-target strong {
+  font-family: "Fraunces", Georgia, serif;
+  font-size: 1.3rem;
+}
+
+.fluency-target span {
+  font-size: 0.72rem;
+  font-weight: 800;
+  line-height: 1.2;
+  text-transform: uppercase;
+}
+
+.home-learning-section {
+  background: var(--paper);
+}
+
+.learning-grid {
+  display: grid;
+  gap: 18px;
+}
+
+.learning-card {
+  display: grid;
+  grid-template-columns: 92px 1fr;
+  gap: 18px;
+  align-items: center;
+  padding: 18px;
+  background: var(--white);
+  border: 1px solid var(--line);
+  border-radius: var(--radius-md);
+  box-shadow: var(--shadow-sm);
+  text-decoration: none;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.learning-card:hover {
+  box-shadow: var(--shadow-lg);
+  transform: translateY(-4px);
+}
+
+.learning-logo {
+  width: 92px;
+  height: 92px;
+  padding: 10px;
+}
+
+.learning-logo img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.learning-card p {
+  margin-bottom: 10px;
+  color: var(--muted);
+}
+
+.learning-card span {
+  color: var(--coral);
+  font-size: 0.86rem;
+  font-weight: 800;
+}
+
+.books-section {
+  background: #163e55;
+}
+
+.book-grid {
+  display: grid;
+  gap: 20px;
+}
+
+.book-card {
+  display: grid;
+  grid-template-columns: 110px 1fr;
+  gap: 18px;
+  align-items: start;
+  padding: 18px;
+  background: var(--white);
+  border-radius: var(--radius-md);
+  box-shadow: 0 12px 0 rgba(0, 0, 0, 0.16);
+}
+
+.book-card > img {
+  width: 110px;
+  aspect-ratio: 2 / 3;
+  object-fit: cover;
+  border-radius: 10px;
+  box-shadow: 7px 7px 0 var(--yellow);
+}
+
+.book-copy p:not(.book-author) {
+  color: var(--muted);
+}
+
+.book-copy details {
+  border-top: 1px solid var(--line);
+}
+
+.book-copy summary {
+  padding: 13px 0 0;
+  color: var(--teal-950);
+  cursor: pointer;
+  font-weight: 800;
+}
+
+.book-copy li {
+  margin-bottom: 7px;
+  color: var(--muted);
+}
+
+.question-stage {
+  padding-top: 12px;
+}
+
+.question-stage strong {
+  display: block;
+  margin-top: 12px;
+  color: var(--coral);
+  font-size: 0.74rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.question-stage ol {
+  margin: 6px 0 0;
+  padding-left: 22px;
+}
+
+.word-wall-section {
+  background:
+    radial-gradient(circle at 8% 16%, rgba(255, 209, 102, 0.18) 0 7%, transparent 7.5%),
+    radial-gradient(circle at 96% 70%, rgba(89, 195, 230, 0.16) 0 9%, transparent 9.5%),
+    var(--paper);
+}
+
+.word-groups {
+  display: grid;
+  gap: 15px;
+}
+
+.word-group {
+  padding: 22px;
+  background: var(--white);
+  border: 2px solid var(--group-color);
+  border-radius: var(--radius-md);
+  box-shadow: 7px 7px 0 var(--group-color);
+}
+
+.heart-words { --group-color: #ff8d86; }
+.prefix-words { --group-color: #62c9c1; }
+.suffix-words { --group-color: #f1c64a; }
+.root-words { --group-color: #90ce78; }
+.long-words { --group-color: #a991e8; }
+
+.word-title {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.word-title span {
+  display: grid;
+  flex: 0 0 auto;
+  place-items: center;
+  width: 42px;
+  height: 42px;
+  background: var(--group-color);
+  border-radius: 12px;
+  font-weight: 800;
+}
+
+.word-title h3 {
+  margin: 0;
+}
+
+.word-group p {
+  margin: 14px 0 0;
+  color: var(--muted);
+  line-height: 1.9;
+}
+
+.strategy-row {
+  display: grid;
+  gap: 12px;
+  margin-top: 42px;
+}
+
+.strategy-row article {
+  position: relative;
+  padding: 21px 20px 20px 72px;
+  background: var(--teal-950);
+  border-radius: var(--radius-sm);
+  color: var(--white);
+}
+
+.strategy-row article > span {
+  position: absolute;
+  top: 19px;
+  left: 18px;
+  display: grid;
+  place-items: center;
+  width: 40px;
+  height: 40px;
+  color: var(--teal-950);
+  background: var(--yellow);
+  border-radius: 50%;
+  font-family: "Fraunces", Georgia, serif;
+  font-weight: 700;
+}
+
+.strategy-row h3,
+.strategy-row p {
+  margin-bottom: 5px;
+}
+
+.strategy-row p {
+  color: rgba(255, 255, 255, 0.75);
+}
+
+.strategy-sources {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 18px;
+}
+
+.strategy-sources a {
+  padding: 9px 13px;
+  color: var(--teal-950);
+  background: #e8f7f4;
+  border: 1px solid var(--teal-500);
+  border-radius: 999px;
+  font-size: 0.78rem;
+  font-weight: 800;
+  text-decoration: none;
+}
+
+.strategy-sources a:hover {
+  background: var(--yellow);
+  border-color: var(--yellow);
+}
+
+.community-section {
+  background: #e9f7f5;
+}
+
+.community-grid {
+  display: grid;
+  gap: 18px;
+}
+
+.community-card {
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+  padding: 22px;
+  background: var(--white);
+  border-radius: var(--radius-md);
+  box-shadow: var(--shadow-sm);
+}
+
+.event-label {
+  margin-bottom: 7px !important;
+  color: var(--coral) !important;
+  font-size: 0.72rem;
+  font-weight: 800;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+
+.community-logo {
+  height: 115px;
+  margin-bottom: 20px;
+  padding: 12px;
+}
+
+.community-logo img {
+  width: auto;
+  max-width: 100%;
+  max-height: 88px;
+  object-fit: contain;
+}
+
+.frost-wordmark {
+  align-content: center;
+  color: #081e3f;
+  background: #f5c400;
+  text-align: center;
+}
+
+.frost-wordmark strong,
+.frost-wordmark span {
+  display: block;
+}
+
+.frost-wordmark strong {
+  font-family: "Fraunces", Georgia, serif;
+  font-size: 2.2rem;
+  letter-spacing: 0.03em;
+  line-height: 1;
+}
+
+.frost-wordmark span {
+  margin-top: 6px;
+  font-size: 0.68rem;
+  font-weight: 800;
+  letter-spacing: 0.16em;
+}
+
+.schedule-note {
+  margin-top: 25px;
+  margin-bottom: 0;
+  padding: 15px 18px;
+  color: var(--teal-950);
+  background: rgba(255, 255, 255, 0.65);
+  border: 1px dashed var(--teal-500);
+  border-radius: 14px;
+  font-size: 0.9rem;
+  font-weight: 600;
+}
+
+.parent-section {
+  background: var(--paper);
+}
+
+.parent-intro {
+  display: grid;
+  gap: 24px;
+  align-items: center;
+  margin-bottom: 34px;
+}
+
+.parent-intro h2 {
+  margin-bottom: 16px;
+}
+
+.parent-intro p:last-child {
+  max-width: 650px;
+  color: var(--muted);
+}
+
+.twenty-badge {
+  display: flex;
+  align-items: center;
+  gap: 13px;
+  width: fit-content;
+  padding: 14px 20px;
+  color: var(--teal-950);
+  background: var(--yellow);
+  border-radius: 22px 22px 22px 5px;
+  box-shadow: 8px 8px 0 var(--coral);
+  transform: rotate(2deg);
+}
+
+.twenty-badge strong {
+  font-family: "Fraunces", Georgia, serif;
+  font-size: 3.3rem;
+  line-height: 1;
+}
+
+.twenty-badge span {
+  font-size: 0.75rem;
+  font-weight: 800;
+  line-height: 1.2;
+  text-transform: uppercase;
+}
+
+.parent-links {
+  display: grid;
+  gap: 12px;
+}
+
+.parent-links a {
+  display: grid;
+  grid-template-columns: 58px 1fr auto;
+  gap: 14px;
+  align-items: center;
+  min-height: 86px;
+  padding: 13px 16px;
+  background: var(--white);
+  border: 1px solid var(--line);
+  border-radius: var(--radius-sm);
+  box-shadow: var(--shadow-sm);
+  text-decoration: none;
+  transition: border-color 0.2s ease, transform 0.2s ease;
+}
+
+.parent-links a:hover {
+  border-color: var(--teal-500);
+  transform: translateX(3px);
+}
+
+.parent-links a > span {
+  display: grid;
+  place-items: center;
+  width: 58px;
+  height: 58px;
+  color: var(--white);
+  background: var(--teal-950);
+  border-radius: 16px;
+  font-size: 0.72rem;
+  font-weight: 800;
+  letter-spacing: 0.04em;
+}
+
+.parent-links strong,
+.parent-links small {
+  display: block;
+}
+
+.parent-links small {
+  margin-top: 3px;
+  color: var(--muted);
+  font-size: 0.78rem;
+}
+
+.parent-links b {
+  color: var(--coral);
+}
+
+.reading-challenge {
+  display: grid;
+  gap: 28px;
+  margin-top: 45px;
+  padding: 26px;
+  color: var(--white);
+  background: var(--teal-950);
+  border-radius: var(--radius-lg);
+  box-shadow: var(--shadow-lg);
+}
+
+.challenge-copy .eyebrow {
+  color: var(--yellow);
+}
+
+.challenge-copy h3 {
+  font-family: "Fraunces", Georgia, serif;
+  font-size: clamp(1.8rem, 5vw, 2.65rem);
+}
+
+.challenge-copy > p:last-child {
+  margin-bottom: 0;
+  color: rgba(255, 255, 255, 0.76);
+}
+
+.week-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 9px;
+}
+
+.week-grid div {
+  min-height: 84px;
+  padding: 12px;
+  color: var(--ink);
+  background: var(--white);
+  border-radius: 13px;
+}
+
+.week-grid strong,
+.week-grid span {
+  display: block;
+}
+
+.week-grid strong {
+  color: var(--coral);
+  font-size: 0.75rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.week-grid span {
+  margin-top: 5px;
+  font-size: 0.78rem;
+  font-weight: 700;
+  line-height: 1.25;
+}
+
+.references-section {
+  background: #eef3f2;
+}
+
+.reference-list {
+  display: grid;
+  gap: 0;
+  padding: 22px;
+  background: var(--white);
+  border-radius: var(--radius-md);
+  box-shadow: var(--shadow-sm);
+}
+
+.reference-list p {
+  margin: 0;
+  padding: 13px 0;
+  border-bottom: 1px solid var(--line);
+  color: var(--muted);
+  font-size: 0.9rem;
+}
+
+.reference-list p:last-child {
+  border-bottom: 0;
+}
+
+.site-footer {
+  padding: 50px clamp(20px, 5vw, 64px) 26px;
+  color: var(--white);
+  background: #042b38;
+}
+
+.footer-main,
+.footer-bottom {
+  width: min(100%, var(--max-width));
+  margin: 0 auto;
+}
+
+.footer-main {
+  display: grid;
+  gap: 28px;
+  align-items: center;
+  padding-bottom: 28px;
+}
+
+.footer-main > div {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.footer-main strong {
+  font-family: "Fraunces", Georgia, serif;
+  font-size: 1.2rem;
+}
+
+.footer-main p {
+  margin: 3px 0 0;
+  color: rgba(255, 255, 255, 0.65);
+  font-size: 0.82rem;
+}
+
+.footer-main > a {
+  overflow-wrap: anywhere;
+  color: var(--yellow);
+  font-weight: 700;
+}
+
+.footer-bottom {
+  display: grid;
+  gap: 16px;
+  align-items: center;
+  padding-top: 22px;
+  border-top: 1px solid rgba(255, 255, 255, 0.13);
+  color: rgba(255, 255, 255, 0.65);
+  font-size: 0.8rem;
+}
+
+.footer-bottom p {
+  margin: 0;
+}
+
+.footer-bottom img {
+  width: 150px;
+  padding: 8px;
+  background: var(--white);
+  border-radius: 8px;
+}
+
+.footer-bottom > a:last-child {
+  color: var(--white);
+  font-weight: 700;
+}
+
+@media (min-width: 620px) {
+  .teacher-facts {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .teacher-facts div:last-child {
+    grid-column: 1 / -1;
+  }
+
+  .resource-grid,
+  .goal-grid,
+  .community-grid,
+  .word-groups {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .learning-card {
+    grid-template-columns: 125px 1fr;
+    padding: 22px;
+  }
+
+  .learning-logo {
+    width: 125px;
+    height: 112px;
+  }
+
+  .book-card {
+    grid-template-columns: 145px 1fr;
+    padding: 23px;
+  }
+
+  .book-card > img {
+    width: 145px;
+  }
+
+  .strategy-row {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .week-grid {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+  }
+
+  .teacher-contact,
+  .parent-intro,
+  .footer-main,
+  .footer-bottom {
+    grid-template-columns: 1fr auto;
+  }
+
+  .footer-bottom {
+    grid-template-columns: auto 1fr auto;
+  }
+
+  .footer-bottom p {
+    text-align: center;
+  }
+}
+
+@media (min-width: 820px) {
+  .content-section {
+    padding-top: 105px;
+    padding-bottom: 105px;
+  }
+
+  .hero {
+    grid-template-columns: minmax(0, 1.3fr) minmax(340px, 0.7fr);
+    gap: 6vw;
+    align-items: center;
+  }
+
+  .hero-visual {
+    display: grid;
+    min-height: 500px;
+    place-items: center;
+  }
+
+  .hero-letters {
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    width: min(100%, 390px);
+    transform: rotate(3deg);
+  }
+
+  .hero-letter {
+    display: grid;
+    place-items: center;
+    aspect-ratio: 0.75;
+    color: var(--teal-950);
+    background: var(--yellow);
+    border: 7px solid var(--white);
+    border-radius: 22px 22px 8px 8px;
+    box-shadow: 12px 16px 0 rgba(0, 0, 0, 0.16);
+    font-family: "Fraunces", Georgia, serif;
+    font-size: clamp(4rem, 8vw, 7rem);
+    font-weight: 700;
+  }
+
+  .hero-letter:nth-child(2) {
+    color: var(--white);
+    background: var(--coral);
+    transform: translateY(-26px);
+  }
+
+  .hero-letter:nth-child(3) {
+    background: var(--sky);
+  }
+
+  .hero-note {
+    position: absolute;
+    padding: 8px 15px;
+    color: var(--teal-950);
+    background: var(--white);
+    border-radius: 999px;
+    box-shadow: var(--shadow-sm);
+    font-size: 0.78rem;
+    font-weight: 800;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+  }
+
+  .note-one { top: 10%; left: 5%; transform: rotate(-9deg); }
+  .note-two { top: 22%; right: -2%; transform: rotate(7deg); }
+  .note-three { right: 7%; bottom: 12%; transform: rotate(-5deg); }
+
+  .teacher-layout {
+    grid-template-columns: minmax(280px, 0.78fr) minmax(0, 1.22fr);
+    gap: clamp(50px, 8vw, 100px);
+  }
+
+  .resource-grid {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+  }
+
+  .curriculum-wide {
+    grid-column: 1 / -1;
+    display: grid;
+    grid-template-columns: minmax(180px, 0.42fr) 1fr;
+    align-items: center;
+  }
+
+  .curriculum-wide .logo-stage {
+    height: 150px;
+    margin: 0;
+  }
+
+  .goal-grid {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+
+  .featured-goal {
+    grid-row: span 2;
+  }
+
+  .learning-grid,
+  .community-grid {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+
+  .learning-card {
+    grid-template-columns: 1fr;
+    align-content: start;
+  }
+
+  .learning-logo {
+    width: 100%;
+    height: 145px;
+  }
+
+  .book-grid {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+
+  .book-card {
+    grid-template-columns: 1fr;
+  }
+
+  .book-card > img {
+    width: 150px;
+    height: 220px;
+    margin: -42px auto 8px;
+  }
+
+  .book-grid {
+    padding-top: 45px;
+  }
+
+  .word-groups {
+    grid-template-columns: repeat(6, minmax(0, 1fr));
+  }
+
+  .word-group {
+    grid-column: span 2;
+  }
+
+  .long-words {
+    grid-column: 4 / span 2;
+  }
+
+  .strategy-row {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+
+  .reading-challenge {
+    grid-template-columns: 0.68fr 1.32fr;
+    align-items: center;
+    padding: 38px;
+  }
+
+  .parent-links {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (min-width: 1180px) {
+  .site-header {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    gap: 28px;
+  }
+
+  .menu-toggle {
+    display: none;
+  }
+
+  .site-nav {
+    position: static;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2px 4px;
+    justify-content: flex-end;
+    max-height: none;
+    padding: 0;
+    overflow: visible;
+    visibility: visible;
+    background: transparent;
+    border: 0;
+    border-radius: 0;
+    box-shadow: none;
+    opacity: 1;
+    transform: none;
+  }
+
+  .site-nav a {
+    padding: 8px 9px;
+    font-size: 0.76rem;
+  }
+
+  .hero {
+    min-height: 770px;
+  }
+
+  .hero::before {
+    width: 420px;
+    height: 420px;
+    border-width: 72px;
+  }
+
+  .resource-card,
+  .community-card {
+    padding: 26px;
+  }
+
+  .teacher-copy {
+    padding: 40px;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+
+  *,
+  *::before,
+  *::after {
+    scroll-behavior: auto !important;
+    transition-duration: 0.01ms !important;
+  }
+}
